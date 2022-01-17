@@ -9,5 +9,5 @@ test('renders learn react link', () => {
 
 // git test code
 /*
-  ThkffkThkffk~~
+  ThkffkThkffk~~ㅋㅇㄹ
 */
