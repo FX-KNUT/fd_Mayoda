@@ -11,7 +11,11 @@ public class TestAPIModel
         this.name = name;
         this.message = message;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> main
     public String getName()
     {
         return message;
