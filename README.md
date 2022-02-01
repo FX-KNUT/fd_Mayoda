@@ -1,4 +1,5 @@
-Mayoda
+
+
 ======
 Our club f(x) is doing a project called "Mayoda" during this vacation.
 ------------------------------------------------------------------------
@@ -12,18 +13,22 @@ Our club f(x) is doing a project called "Mayoda" during this vacation.
 
 #### Frontend
 
-- 신이종
 - 장수인
 - 이소윤
 - 허강민
 - 한아름
-- 문소희
 
 #### Backend
 
-- 김규영
 - 아크롬
 - 김서로
 - 진성진
 - 김성은
 - 김민기
+
+#### DevOps
+
+- 김규영
+
+#### PM
+- 신이종
