@@ -25,6 +25,7 @@ Our club f(x) is doing a project called "Mayoda" during this vacation.
 - 진성진
 - 김성은
 - 김민기
+- 
 
 #### DevOps
 
