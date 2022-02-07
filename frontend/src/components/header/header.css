@@ -1,0 +1,22 @@
+.container{
+    background-color: hsl(0, 0%, 95%);
+    padding: 0 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 4.5rem;
+}
+
+.logo{
+    font: bold;
+    font-size: 2rem;
+    color: hsl(205, 8%, 29%);
+}
+
+.space{
+    flex-grow: 2;
+}
+
+.icon{
+    margin: 2vmax;
+}
