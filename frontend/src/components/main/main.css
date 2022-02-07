@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hind:wght@700&display=swap');
+
+body {
+  width: 2000px;
+  height: 1000px;
+
+  font-family: 'Hind', sans-serif;
+}
+div {
+  border: dashed 2px black;
+}
+.padding {
+  padding: 0px 80px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 560px);
+  grid-column-gap: 80px;
+}
+.today {
+  height: 650px;
+  font-size : 35px;
+  color : hsl(192,11%,44%);
+  text-align : left;
+}
+.today span {
+  font-size : 40px;
+  color : hsl(205,8%,29%);
+}
+.done {
+  height: 350px;
+  font-size : 20px;
+  color : hsl(192,11%,44%);
+  text-align : left;
+}
+.done span{
+    font-size : 30px;
+    color : hsl(205,8%,29%);
+}
+.size {
+  grid-row: span 2;
+}
