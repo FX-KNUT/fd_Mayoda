@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hind:wght@700&display=swap');
 
-body {
-  font-family: 'Hind', sans-serif;
-}
 div {
   border: dashed 2px black;
 }
@@ -11,26 +8,38 @@ div {
   padding: 0px 80px;
 }
 
-#main {
+main {
   display: grid;
   grid-template-columns: repeat(3, 560px);
   grid-column-gap: 80px;
 }
 .today {
-  height: 650px;
+    height : 650px;
+    text-align : left;
+}
+.today_style {
   font-size : 35px;
   color : hsl(192,11%,44%);
   text-align : left;
+
+  display : flex;
+  flex-direction : column;
 }
 .today span {
   font-size : 40px;
   color : hsl(205,8%,29%);
 }
 .done {
-  height: 350px;
+    height : 350px;
+    text-align : left;
+}
+.done_style {
   font-size : 20px;
   color : hsl(192,11%,44%);
   text-align : left;
+
+  display : flex;
+  flex-direction : column;
 }
 .done span{
     font-size : 30px;
