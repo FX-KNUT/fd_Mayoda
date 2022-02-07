@@ -13,6 +13,7 @@ Our club f(x) is doing a project called "Mayoda" during this vacation.
 
 #### Frontend
 
+- 민경호(멘토)
 - 장수인
 - 이소윤
 - 허강민
@@ -29,7 +30,7 @@ Our club f(x) is doing a project called "Mayoda" during this vacation.
 
 #### DevOps
 
-- 김규영
+- 김규영(백엔드 멘토)
 
 #### PM
 - 신이종

@@ -20,3 +20,8 @@
 .icon{
     margin: 2vmax;
 }
+
+
+.container > .icon {
+    cursor: pointer;
+}

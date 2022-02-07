@@ -10,18 +10,18 @@ function Header() {
         <header className='container'>
             <p className='logo'> MAYODA </p>
             <p className='space'></p>
-            <div className='icon'>
-                <p className="material-icons md-36" onClick={LoginClick}>
+            <div className='icon' role="button">
+                <p className="material-icons md-36" draggable="false" onClick={LoginClick}>
                     person_outline
                 </p>
             </div>
-            <div className='icon'>
-                <span class="material-icons md-36">
+            <div className='icon' role="button">
+                <span class="material-icons md-36" draggable="false">
                     calendar_today
                 </span>
             </div>
-            <div className='icon'>
-                <span className="material-icons md-36">
+            <div className='icon' role="button">
+                <span className="material-icons md-36" draggable="false">
                     notifications
                 </span>
             </div>
