@@ -25,7 +25,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-.today div span {
+.today span {
   font-size: 40px;
   color: hsl(205, 8%, 29%);
 }
