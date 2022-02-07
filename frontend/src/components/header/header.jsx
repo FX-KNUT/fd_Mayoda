@@ -7,23 +7,23 @@ function LoginClick(){
 
 function Header() {
     return (
-        <header className='container'>
-            <p className='logo'> MAYODA </p>
-            <p className='space'></p>
-            <div className='icon'>
-                <p className="material-icons md-36" onClick={LoginClick}>
+        <header className='header_container'>
+            <p className='header_logo'> MAYODA </p>
+            <p className='header_space'></p>
+            <div className='header_icon' role='button'>
+                <p className="material-icons md-36"  onClick={LoginClick} >
                     person_outline
                 </p>
             </div>
-            <div className='icon'>
-                <span class="material-icons md-36">
+            <div className='header_icon' role='button'>
+                <p class="material-icons md-36">
                     calendar_today
-                </span>
+                </p>
             </div>
-            <div className='icon'>
-                <span className="material-icons md-36">
+            <div className='header_icon' role='button'>
+                <p className="material-icons md-36"  >
                     notifications
-                </span>
+                </p>
             </div>
         </header>
     );
