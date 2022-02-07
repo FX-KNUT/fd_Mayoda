@@ -3,20 +3,20 @@ import './main.css';
 
 function Main() {
   return (
-    <div id = 'main' class = 'padding'>
+    <main class="padding">
       
-        <div class = 'today'>
+        <div class='today'>
             <span>TODAY'S BUCKETS</span> <br/>
             <p>예정된 일정이 없습니다.</p>
         </div>
-        <div class = 'size'></div>
-        <div class = 'size'></div>
-        <div class = 'done'>
+        <div class='size'></div>
+        <div class='size'></div>
+        <div class='done'>
             <span>DONE HISTORY</span> <br/>
             <p>예정된 일정이 없습니다.</p>
         </div>
        
-    </div>
+    </main>
   )
 }
 
