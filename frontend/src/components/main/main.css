@@ -1,6 +1,3 @@
-div {
-  border: dashed 2px black;
-}
 .padding {
   padding: 0px 80px;
 }
@@ -13,6 +10,7 @@ main {
 .today {
   height: 650px;
   text-align: left;
+  background-color: rgb(190, 248, 228);
 
   display: flex;
   flex-direction: column;
@@ -32,6 +30,7 @@ main {
 .done {
   height: 350px;
   text-align: left;
+  background-color: rgb(190, 253, 253);
 
   display: flex;
   flex-direction: column;
@@ -50,4 +49,5 @@ main {
 }
 .size {
   grid-row: span 2;
+  background-color: rgb(255, 240, 206);
 }
