@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Fd_Mayoda/static/css/main.ac45055f.css",
-    "main.js": "/Fd_Mayoda/static/js/main.55365399.js",
-    "static/js/787.774729bc.chunk.js": "/Fd_Mayoda/static/js/787.774729bc.chunk.js",
-    "static/media/material-icons-two-tone.woff": "/Fd_Mayoda/static/media/material-icons-two-tone.862d6cd39626a9ddf097.woff",
-    "static/media/material-icons-two-tone.woff2": "/Fd_Mayoda/static/media/material-icons-two-tone.4cd0b540933d1628c224.woff2",
-    "static/media/material-icons-round.woff": "/Fd_Mayoda/static/media/material-icons-round.1d2975b71bddc932cb7e.woff",
-    "static/media/material-icons-outlined.woff": "/Fd_Mayoda/static/media/material-icons-outlined.a55facf19bd472183ef5.woff",
-    "static/media/material-icons-round.woff2": "/Fd_Mayoda/static/media/material-icons-round.14fc6f6a609772c817b0.woff2",
-    "static/media/material-icons.woff": "/Fd_Mayoda/static/media/material-icons.1dd1bb366e173805f48f.woff",
-    "static/media/material-icons-sharp.woff": "/Fd_Mayoda/static/media/material-icons-sharp.a9826221a78430fb6178.woff",
-    "static/media/material-icons-outlined.woff2": "/Fd_Mayoda/static/media/material-icons-outlined.c32fc86b5d23fdcfcd4d.woff2",
-    "static/media/material-icons-sharp.woff2": "/Fd_Mayoda/static/media/material-icons-sharp.3a0d3ee832500dda50c5.woff2",
-    "static/media/material-icons.woff2": "/Fd_Mayoda/static/media/material-icons.90170fbdd3dad451d44d.woff2",
-    "index.html": "/Fd_Mayoda/index.html",
-    "main.ac45055f.css.map": "/Fd_Mayoda/static/css/main.ac45055f.css.map",
-    "main.55365399.js.map": "/Fd_Mayoda/static/js/main.55365399.js.map",
-    "787.774729bc.chunk.js.map": "/Fd_Mayoda/static/js/787.774729bc.chunk.js.map"
+    "main.css": "/fd_Mayoda/static/css/main.1be6a52e.css",
+    "main.js": "/fd_Mayoda/static/js/main.8f5c7091.js",
+    "static/js/787.774729bc.chunk.js": "/fd_Mayoda/static/js/787.774729bc.chunk.js",
+    "static/media/material-icons-two-tone.woff": "/fd_Mayoda/static/media/material-icons-two-tone.862d6cd39626a9ddf097.woff",
+    "static/media/material-icons-two-tone.woff2": "/fd_Mayoda/static/media/material-icons-two-tone.4cd0b540933d1628c224.woff2",
+    "static/media/material-icons-round.woff": "/fd_Mayoda/static/media/material-icons-round.1d2975b71bddc932cb7e.woff",
+    "static/media/material-icons-outlined.woff": "/fd_Mayoda/static/media/material-icons-outlined.a55facf19bd472183ef5.woff",
+    "static/media/material-icons-round.woff2": "/fd_Mayoda/static/media/material-icons-round.14fc6f6a609772c817b0.woff2",
+    "static/media/material-icons.woff": "/fd_Mayoda/static/media/material-icons.1dd1bb366e173805f48f.woff",
+    "static/media/material-icons-sharp.woff": "/fd_Mayoda/static/media/material-icons-sharp.a9826221a78430fb6178.woff",
+    "static/media/material-icons-outlined.woff2": "/fd_Mayoda/static/media/material-icons-outlined.c32fc86b5d23fdcfcd4d.woff2",
+    "static/media/material-icons-sharp.woff2": "/fd_Mayoda/static/media/material-icons-sharp.3a0d3ee832500dda50c5.woff2",
+    "static/media/material-icons.woff2": "/fd_Mayoda/static/media/material-icons.90170fbdd3dad451d44d.woff2",
+    "index.html": "/fd_Mayoda/index.html",
+    "main.1be6a52e.css.map": "/fd_Mayoda/static/css/main.1be6a52e.css.map",
+    "main.8f5c7091.js.map": "/fd_Mayoda/static/js/main.8f5c7091.js.map",
+    "787.774729bc.chunk.js.map": "/fd_Mayoda/static/js/787.774729bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac45055f.css",
-    "static/js/main.55365399.js"
+    "static/css/main.1be6a52e.css",
+    "static/js/main.8f5c7091.js"
   ]
 }
