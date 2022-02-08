@@ -16,14 +16,14 @@ function Header() {
                 </p>
             </div>
             <div className='icon' role="button">
-                <span class="material-icons md-36" draggable="false">
+                <p class="material-icons md-36" draggable="false">
                     calendar_today
-                </span>
+                </p>
             </div>
             <div className='icon' role="button">
-                <span className="material-icons md-36" draggable="false">
+                <p className="material-icons md-36" draggable="false">
                     notifications
-                </span>
+                </p>
             </div>
         </header>
     );
