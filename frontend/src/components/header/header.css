@@ -17,11 +17,14 @@
     flex-grow: 1;
 }
 
+.header_button{
+    padding: 3rem;
+}
+
 .header_icon{
     margin: 2vmax;
 }
 
-
-.container > .icon {
+.header_button>.material-icons{
     cursor: pointer;
 }

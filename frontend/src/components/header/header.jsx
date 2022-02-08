@@ -1,29 +1,27 @@
 import './header.css';
 import 'material-icons/iconfont/material-icons.css';
 
-function LoginClick(){
-    console.log("로그인 창 뿅!!!")
-}
+const Header = () => {
+    const icons = [
+        {id: "person", "name": "person_outline"},
+        {id: "calendar", "name": "calendar_today"},
+        {id: "bell", "name": "notifications"},
+    ];
 
-function Header() {
+    const onClick = () =>{
+        console.log("클릭이벤트 발생!")
+    }
+
     return (
-        <header className='container'>
-            <p className='logo'> MAYODA </p>
-            <p className='space'></p>
-            <div className='icon' role="button">
-                <p className="material-icons md-36" draggable="false" onClick={LoginClick}>
-                    person_outline
-                </p>
-            </div>
-            <div className='icon' role="button">
-                <p className="material-icons md-36" draggable="false">
-                    calendar_today
-                </p>
-            </div>
-            <div className='icon' role="button">
-                <p className="material-icons md-36" draggable="false">
-                    notifications
-                </p>
+        <header className='header_container'>
+            <p className='header_logo'> MAYODA </p>
+            <p className='header_space'></p>
+            <div className='header_icon'>
+                {icons.map(icon => (
+                    <span className='header_button'>
+                        <span className="material-icons md-36" draggable="false" key={icon.id} role='button' onClick={onClick}>{icon.name}</span>
+                    </span>
+                ))}
             </div>
         </header>
     );
