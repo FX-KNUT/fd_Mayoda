@@ -16,7 +16,7 @@ function Header() {
                 </p>
             </div>
             <div className='icon' role="button">
-                <p class="material-icons md-36" draggable="false">
+                <p className="material-icons md-36" draggable="false">
                     calendar_today
                 </p>
             </div>
