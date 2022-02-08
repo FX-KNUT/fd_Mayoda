@@ -3,9 +3,9 @@ import 'material-icons/iconfont/material-icons.css';
 
 const Header = () => {
     const icons = [
-        {id: "person", "name": "person_outline"},
-        {id: "calendar", "name": "calendar_today"},
-        {id: "bell", "name": "notifications"},
+        {id: "person", name: "person_outline"},
+        {id: "calendar", name: "calendar_today"},
+        {id: "bell", name: "notifications"},
     ];
 
     const onClick = () =>{
@@ -18,8 +18,8 @@ const Header = () => {
             <p className='header_space'></p>
             <div className='header_icon'>
                 {icons.map(icon => (
-                    <span className='header_button'>
-                        <span className="material-icons md-36" draggable="false" key={icon.id} role='button' onClick={onClick}>{icon.name}</span>
+                    <span className='header_button' key={icon.id}>
+                        <span className="material-icons md-36" draggable="false" role='button' onClick={onClick}>{icon.name}</span>
                     </span>
                 ))}
             </div>
