@@ -1,4 +1,4 @@
-package com.fx.mayodabe.handler;
+package com.fx.mayodabe.mail.handler;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;

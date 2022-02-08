@@ -1,7 +1,7 @@
-package com.fx.mayodabe.service;
+package com.fx.mayodabe.mail.service;
 
-import com.fx.mayodabe.handler.MailHandler;
-import com.fx.mayodabe.to.MailTO;
+import com.fx.mayodabe.mail.handler.MailHandler;
+import com.fx.mayodabe.mail.to.MailTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -39,8 +39,8 @@ public class MailService {
 
         String htmlContent = "<p>" + mail.getMessage() + "<p>";
         mailHandler.setText(htmlContent, true);                 // 메일 내용
-        mailHandler.setAttach("루피", "static/MailImage/루피.jpg");   // 첨부파일 포함
-        mailHandler.setInline("찌오", "static/MailImage/찌오.jpg");   // 이미지 삽입
+        mailHandler.setAttach("루피", "static/루피.jpg");   // 첨부파일 포함
+        mailHandler.setInline("찌오", "static/찌오.jpg");   // 이미지 삽입
         mailHandler.send();
     }
 }

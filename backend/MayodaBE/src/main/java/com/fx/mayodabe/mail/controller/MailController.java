@@ -1,7 +1,7 @@
-package com.fx.mayodabe.controller;
+package com.fx.mayodabe.mail.controller;
 
-import com.fx.mayodabe.service.MailService;
-import com.fx.mayodabe.to.MailTO;
+import com.fx.mayodabe.mail.service.MailService;
+import com.fx.mayodabe.mail.to.MailTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

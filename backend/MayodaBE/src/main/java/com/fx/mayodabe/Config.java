@@ -8,6 +8,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class Config implements WebMvcConfigurer {
+
     @Bean
     public DataSource getDataSource() {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();

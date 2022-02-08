@@ -1,4 +1,4 @@
-package com.fx.mayodabe.to;
+package com.fx.mayodabe.mail.to;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,6 +11,7 @@ import lombok.Setter;
 public class MailTO {
 
     private String address;
+    private String id;
     private String title;
     private String message;
 }
