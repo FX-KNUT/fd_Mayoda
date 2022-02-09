@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "material-icons/iconfont/material-icons.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {
@@ -10,6 +11,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from "recoil";
+
 
 ReactDOM.render(
   <React.StrictMode>

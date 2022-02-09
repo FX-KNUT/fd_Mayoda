@@ -17,14 +17,30 @@
     flex-grow: 1;
 }
 
-.header_button{
-    padding: 3rem;
-}
-
 .header_icon{
     margin: 2vmax;
+    display: flex;
 }
 
+
+.header_button{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
 .header_button>.material-icons{
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
+    font-size: 2rem;
+}
+
+.material-icons:hover{
+    opacity: .6;
+    transform: translateY(80px);
+    transition: transform .3s ease-in-out;
 }
