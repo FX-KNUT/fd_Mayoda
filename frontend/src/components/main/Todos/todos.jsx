@@ -1,4 +1,4 @@
-import {TodoTitle} from "./TodoTitle/TodoTitle";
+import TodoTitle from "./TodoTitle/TodoTitle";
 
 const Todos = () => {
 

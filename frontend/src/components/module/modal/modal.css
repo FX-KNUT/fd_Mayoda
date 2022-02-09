@@ -1,0 +1,8 @@
+.module_modal {
+    width: 400px;
+    min-height: 400px;
+    max-height: 700px;
+    background: white;
+    color: black;
+    padding: 1rem;
+}
