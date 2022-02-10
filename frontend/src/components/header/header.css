@@ -33,7 +33,6 @@
 
 .header_button > .material-icons {
   display: flex;
-  height: 40%;
   justify-content: flex-end;
   cursor: pointer;
   font-size: 2rem;
@@ -46,7 +45,10 @@
 }
 
 .label_transform {
+  position: absolute;
   opacity: 0;
+  transform: translateY(50%);
+  pointer-events: none;
 }
 
 .material-icons:hover + .label_transform {
