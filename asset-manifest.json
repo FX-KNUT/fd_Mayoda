@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fd_Mayoda/static/css/main.95d925d7.css",
+    "main.css": "/fd_Mayoda/static/css/main.2439b703.css",
     "main.js": "/fd_Mayoda/static/js/main.5614b0da.js",
     "static/js/787.774729bc.chunk.js": "/fd_Mayoda/static/js/787.774729bc.chunk.js",
     "static/media/material-icons-two-tone.woff": "/fd_Mayoda/static/media/material-icons-two-tone.862d6cd39626a9ddf097.woff",
@@ -14,12 +14,12 @@
     "static/media/material-icons-sharp.woff2": "/fd_Mayoda/static/media/material-icons-sharp.3a0d3ee832500dda50c5.woff2",
     "static/media/material-icons.woff2": "/fd_Mayoda/static/media/material-icons.90170fbdd3dad451d44d.woff2",
     "index.html": "/fd_Mayoda/index.html",
-    "main.95d925d7.css.map": "/fd_Mayoda/static/css/main.95d925d7.css.map",
+    "main.2439b703.css.map": "/fd_Mayoda/static/css/main.2439b703.css.map",
     "main.5614b0da.js.map": "/fd_Mayoda/static/js/main.5614b0da.js.map",
     "787.774729bc.chunk.js.map": "/fd_Mayoda/static/js/787.774729bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95d925d7.css",
+    "static/css/main.2439b703.css",
     "static/js/main.5614b0da.js"
   ]
 }
