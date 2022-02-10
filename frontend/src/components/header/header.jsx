@@ -9,10 +9,11 @@ const Header = () => {
 
   const [showModal, setShowModal] = useState(false);
 
+  
   const icons = [
-    { id: "person", name: "person_outline" },
-    { id: "calendar", name: "calendar_today" },
-    { id: "bell", name: "notifications" },
+    { id: "person", name: "person_outline", label: "Login"},
+    { id: "calendar", name: "calendar_today", label: "Calendar"},
+    { id: "bell", name: "notifications", label: "Capital"},
     { id: "test", name: "test"},
   ];
 
@@ -50,6 +51,9 @@ const Header = () => {
               onClick={() => onIconClicked(icon.id)}
             >
               {icon.name}
+            </span>
+            <span className="label_transform">
+              {icon.label}
             </span>
           </span>
         ))}

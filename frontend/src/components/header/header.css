@@ -1,46 +1,55 @@
-.header_container{
-    background-color: hsl(0, 0%, 95%);
-    padding: 0 4.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-height: 4.5rem;
+.header_container {
+  background-color: hsl(0, 0%, 95%);
+  padding: 0 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 4.5rem;
 }
 
-.header_logo{
-    font: bold;
-    font-size: 2rem;
-    color: hsl(205, 8%, 29%);
+.header_logo {
+  font: bold;
+  font-size: 2rem;
+  color: hsl(205, 8%, 29%);
 }
 
-.header_space{
-    flex-grow: 1;
+.header_space {
+  flex-grow: 1;
 }
 
-.header_icon{
-    margin: 2vmax;
-    display: flex;
+.header_icon {
+  margin: 2vmax;
+  display: flex;
 }
 
-
-.header_button{
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+.header_button {
+  position: relative;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
-
-.header_button>.material-icons{
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    font-size: 2rem;
+.header_button > .material-icons {
+  display: flex;
+  height: 40%;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
-.material-icons:hover{
-    opacity: .6;
-    transform: translateY(80px);
-    transition: transform .3s ease-in-out;
+.material-icons:hover {
+  opacity: 0.6;
+  transform: translateY(-35%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.label_transform {
+  opacity: 0;
+}
+
+.material-icons:hover + .label_transform {
+    opacity: 1;
+    transition: all .6s ease-in-out;
 }
