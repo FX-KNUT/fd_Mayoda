@@ -13,7 +13,7 @@ const Header = () => {
   const icons = [
     { id: "person", name: "person_outline", label: "Login"},
     { id: "calendar", name: "calendar_today", label: "Calendar"},
-    { id: "bell", name: "notifications", label: "Capital"},
+    { id: "noti", name: "notifications", label: "Notification"},
     { id: "test", name: "test"},
   ];
 
