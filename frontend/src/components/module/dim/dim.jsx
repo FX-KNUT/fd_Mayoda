@@ -1,17 +1,18 @@
-import { useState } from "react";
+import { createPortal } from "react-dom";
 import "./dim.css";
 
-const Dim = ({childComponent, show}) => {
+const Dim = ({child, setshowModal}) => {
 
-    const [showState, setShowState] = useState(show);
-
-    return (
+    return createPortal ( //ReactDom. x
         <div 
-            className={'module_dim' + showState === true ? 'dim_show' : 'dim_hide'}
-            onClick={() => setShowState(prev => !prev)}    
-        >
-            {childComponent}
-        </div>
+            className='dim_show module_dim'
+            onClick={() => setshowModal(prev => !prev)}    
+        > 
+            {child(prop)}
+        </div>,
+        //click시 이전 버전으로 
+        document.getElementById("portal")
+        //id와 같은 DOM 요소를 나탄는 Elememt 반환..없을 시 null
     );
 }
 
