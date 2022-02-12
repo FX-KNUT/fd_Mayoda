@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { themeState } from '../recoil/atom';
+import { themeState } from '../../recoil/atom';
 import { useEffect } from 'react';
 
 const Toggle = () => {
