@@ -1,14 +1,14 @@
 import { createPortal } from "react-dom";
 import "./dim.css";
 
-const Dim = ({child, setshowModal}) => {
+const Dim = ({children, setshowModal}) => {
 
     return createPortal ( //ReactDom. x
         <div 
-            className='dim_show module_dim'
+            className='module_dim'
             onClick={() => setshowModal(prev => !prev)}    
         > 
-            {child(prop)}
+            {children}
         </div>,
         //click시 이전 버전으로 
         document.getElementById("portal")

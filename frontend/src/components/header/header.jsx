@@ -4,11 +4,15 @@ import Modal from "../module/modal/modal";
 import "./header.css";
 
 
+
 const Header = () => {
 
-  const [showModal, setModalOpen] = useState(false);
+  const [showModal, setshowModal] = useState(false);
 
-  
+    <>
+    <Header children={showModal} />
+    <Dim children={Modal} show={true}/>
+    </>
   const icons = [
     { id: "person", name: "person_outline", label: "Login"},
     { id: "calendar", name: "calendar_today", label: "Calendar"},
@@ -19,15 +23,12 @@ const Header = () => {
   const onIconClicked = (id) => {
     console.log(`클릭이벤트 발생! - ${id}`);
     if(id = "test") {
-       setModalOpen(true); 
+       setshowModal(true); 
       }
     };
- const test_dim = (
-          <Dim child={Modal()} show={true}/>
-        )
+
   return (
     <header className="header_container">
-      {showModal && test_dim}
       <p className="header_logo"> MAYODA </p>
       <p className="header_space"></p>
       <div className="header_icon">

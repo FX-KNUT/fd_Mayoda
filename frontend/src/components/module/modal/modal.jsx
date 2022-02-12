@@ -1,10 +1,11 @@
+import { Children } from "react";
 import "./modal.css";
 
-const Modal = ({child}) => {
+const Modal = ({children}) => {
 
     return (
         <div className="module_modal">
-            {child}
+            {children}
         </div>
     );
 }
