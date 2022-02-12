@@ -6,6 +6,5 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    opacity: 0.6;
-    background: black;
+    background: rgba(0, 0, 0, 0.6);
 }
