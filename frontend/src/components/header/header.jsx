@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
 import Dim from "../module/dim/dim";
 import Modal from "../module/modal/modal";
 import "./header.css";
@@ -7,7 +6,7 @@ import "./header.css";
 
 const Header = () => {
 
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setModalOpen] = useState(false);
 
   
   const icons = [
@@ -19,25 +18,16 @@ const Header = () => {
 
   const onIconClicked = (id) => {
     console.log(`클릭이벤트 발생! - ${id}`);
-    if(id === 'test') {
-      setShowModal(prev => !prev);
-    }
-    console.log(showModal);
-  };
-
-  useEffect(() => {
-    if(showModal === true) {
-      const target_portal = document.querySelector("#portal");
-      const test_dim = (
-        <Dim childComponent={Modal} show={true}/>
-      );
-      ReactDOM.createPortal(test_dim, target_portal);
-      console.log("fuck");
-    }
-  }, [showModal])
-
+    if(id = "test") {
+       setModalOpen(true); 
+      }
+    };
+ const test_dim = (
+          <Dim child={Modal()} show={true}/>
+        )
   return (
     <header className="header_container">
+      {showModal && test_dim}
       <p className="header_logo"> MAYODA </p>
       <p className="header_space"></p>
       <div className="header_icon">

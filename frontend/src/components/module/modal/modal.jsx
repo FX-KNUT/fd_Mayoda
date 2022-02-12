@@ -1,10 +1,10 @@
 import "./modal.css";
 
-const Modal = () => {
+const Modal = ({child}) => {
 
     return (
         <div className="module_modal">
-            test
+            {child}
         </div>
     );
 }
