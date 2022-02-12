@@ -9,10 +9,7 @@ const Header = () => {
 
   const [showModal, setshowModal] = useState(false);
 
-    <>
-    <Header children={showModal} />
-    <Dim children={Modal} show={true}/>
-    </>
+   
   const icons = [
     { id: "person", name: "person_outline", label: "Login"},
     { id: "calendar", name: "calendar_today", label: "Calendar"},
@@ -28,6 +25,8 @@ const Header = () => {
     };
 
   return (
+    <>
+    {showModal&&<Dim setshowModal={setshowModal}><Modal></Modal></Dim>}
     <header className="header_container">
       <p className="header_logo"> MAYODA </p>
       <p className="header_space"></p>
@@ -50,6 +49,7 @@ const Header = () => {
         ))}
       </div>
     </header>
+    </>
   );
 };
 
