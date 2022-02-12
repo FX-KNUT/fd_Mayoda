@@ -1,16 +1,16 @@
-import { useRecoilState } from 'recoil';
-import { themeState } from '../../recoil/atom';
-import { useEffect } from 'react';
+import { useRecoilState } from "recoil";
+import { themeState } from "../../recoil/atom";
+import { useEffect } from "react";
 
 const Toggle = () => {
   const [theme, setTheme] = useRecoilState(themeState);
 
   const onChangeTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   useEffect(() => {
-    localStorage.setItem('themeState', theme);
+    localStorage.setItem("themeState", theme);
   }, [theme]);
 
   return <input type="checkbox" name="toggleTheme" onChange={onChangeTheme} />;
