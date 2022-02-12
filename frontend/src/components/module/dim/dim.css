@@ -1,0 +1,15 @@
+.module_dim {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.6;
+    background: black;
+}
+
+.dim_show {
+    display: flex;
+}

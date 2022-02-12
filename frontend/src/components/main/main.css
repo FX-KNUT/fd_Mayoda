@@ -1,0 +1,53 @@
+.padding {
+  padding: 0px 80px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 80px;
+}
+.today {
+  height: 650px;
+  text-align: left;
+  background-color: rgb(190, 248, 228);
+
+  display: flex;
+  flex-direction: column;
+}
+.today_style {
+  font-size: 35px;
+  color: hsl(192, 11%, 44%);
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+.today span {
+  font-size: 40px;
+  color: hsl(205, 8%, 29%);
+}
+.done {
+  height: 250px;
+  text-align: left;
+  background-color: rgb(190, 253, 253);
+
+  display: flex;
+  flex-direction: column;
+}
+.done_style {
+  font-size: 20px;
+  color: hsl(192, 11%, 44%);
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+.done span {
+  font-size: 30px;
+  color: hsl(205, 8%, 29%);
+}
+.size {
+  grid-row: span 2;
+  background-color: rgb(255, 240, 206);
+}
