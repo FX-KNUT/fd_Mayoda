@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class Config implements WebMvcConfigurer {
     @Bean
-    public DataSource getDataSource() {
+    public DataSource dataSource() {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("com.mysql.cj.jdbc.Driver");
         dataSourceBuilder.url("jdbc:mysql://mayodadb.cnsocyvopinv.ap-northeast-2.rds.amazonaws.com:58321/MayodaDB");

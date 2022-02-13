@@ -1,6 +1,7 @@
 package com.fx.mayodabe.findIdPw.dto;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
