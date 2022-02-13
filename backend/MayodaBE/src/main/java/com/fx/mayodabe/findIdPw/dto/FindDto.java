@@ -16,7 +16,7 @@ public class FindDto {
         this.email = email;
     }
 
-    public FindDto(String email) {
+    public FindDto(String email){
         this.email = email;
     }
 }
