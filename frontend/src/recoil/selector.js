@@ -1,1 +1,1 @@
-import { selector } from "recoil";
+import { selector } from 'recoil';

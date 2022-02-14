@@ -4,6 +4,7 @@ import "./index.css";
 import "material-icons/iconfont/material-icons.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "./components/theme/i18n";
 import {
   RecoilRoot,
   atom,
