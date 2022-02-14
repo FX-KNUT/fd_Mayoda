@@ -1,22 +1,13 @@
-import {TodoTitle} from "./TodoTitle/TodoTitle";
+import TodoTitle from "./TodoTitle/TodoTitle";
+import TodoInput from "./TodoInput/TodoInput";
 
 const Todos = () => {
-
-  // todo가 있으면 todo를 뿌리고
-  // todo가 없으면 "예정된 일정이 없습니다."
-
-  // ternary operator
-  // 삼항 연산자
-  // console.log("hello world!") ? true : false;
-
-    return (
-        <div className="today">
-          <TodoTitle />
-          <div className="today_style">
-            <p>예정된 일정이 없습니다.</p>
-          </div>
-        </div>
-    );
-}
+  return (
+    <div className="today">
+      <TodoTitle />
+      <TodoInput />
+    </div>
+  );
+};
 
 export default Todos;

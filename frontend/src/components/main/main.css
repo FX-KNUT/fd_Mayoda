@@ -15,18 +15,28 @@ main {
   display: flex;
   flex-direction: column;
 }
-.today_style {
-  font-size: 35px;
-  color: hsl(192, 11%, 44%);
-  text-align: left;
-
-  display: flex;
-  flex-direction: column;
-}
 .today span {
   font-size: 40px;
   color: hsl(205, 8%, 29%);
 }
+.today_style {
+  font-size: 35px;
+  color: hsl(192, 11%, 44%);
+  padding : 30px 0 0 0;
+  text-align: left;
+
+  display : inline-block;
+  width : 100%;
+}
+
+.today_style ul {
+  list-style-type: none;
+  padding: 0px;
+
+  overflow: auto;
+  height : 450px;
+}
+
 .done {
   height: 250px;
   text-align: left;
@@ -35,6 +45,10 @@ main {
   display: flex;
   flex-direction: column;
 }
+.done span {
+  font-size: 30px;
+  color: hsl(205, 8%, 29%);
+}
 .done_style {
   font-size: 20px;
   color: hsl(192, 11%, 44%);
@@ -42,10 +56,6 @@ main {
 
   display: flex;
   flex-direction: column;
-}
-.done span {
-  font-size: 30px;
-  color: hsl(205, 8%, 29%);
 }
 .size {
   grid-row: span 2;

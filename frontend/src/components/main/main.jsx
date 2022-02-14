@@ -36,6 +36,7 @@ const Main = () => {
       <Todos />
       <div className="size"></div>
       <div className="size"></div>
+      
       <div className="done">
         <div>
           <span>DONE HISTORY</span>

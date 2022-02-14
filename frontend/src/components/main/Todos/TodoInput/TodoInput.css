@@ -1,0 +1,39 @@
+.todo_insert {
+  display: flex;
+  justify-content: space-between;
+}
+.input_style {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 35px;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.click_style {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 35px;
+  float: right;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.remove_style {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 35px;
+  float: right;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 40px;
+  cursor: pointer;
+}
